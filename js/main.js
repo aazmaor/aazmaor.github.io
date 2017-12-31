@@ -625,7 +625,7 @@ jQuery(document).ready(function($){
 	if($("#map").length)
 	{
 		//google map
-		var coordinate = new google.maps.LatLng(51.112265,17.033787);
+		var coordinate = new google.maps.LatLng(31.9205602,34.8781485);
 		var mapOptions = {
 			zoom: 16,
 			center: coordinate,
@@ -639,7 +639,7 @@ jQuery(document).ready(function($){
 		
 		map = new google.maps.Map(document.getElementById("map"),mapOptions);
 		marker = new google.maps.Marker({
-			position: new google.maps.LatLng(51.112265,17.033787),
+			position: new google.maps.LatLng(31.9205602,34.8781485),
 			map: map,
 			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(38, 48), null, new google.maps.Point(18, 48))
 		});
