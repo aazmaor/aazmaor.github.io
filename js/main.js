@@ -14,7 +14,7 @@ var menu_position = null;
 function gm_authFailure() 
 {
 	if($("#map").length)
-		alert('Please define Google Maps API Key.\nReplace YOUR_API_KEY with the key generated on https://developers.google.com/maps/documentation/javascript/get-api-key\nin below line before the </body> closing tag <script type="text/javascript" src="//maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>');
+		alert('Please define Google Maps API Key.\nReplace YOUR_API_KEY with the key generated on https://developers.google.com/maps/documentation/javascript/get-api-key\nin below line before the </body> closing tag <script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyBYAM1Hj4k_N476ga2-NhvRZzjuY9xkaes"></script>');
 }
 jQuery(document).ready(function($){
 	//search form
