@@ -1500,7 +1500,7 @@ body.overlay .background-overlay
 /* --- backgrounds --- */
 .background-1
 {
-	background-image: url('../images/samples/960x680/image_01.jpg');
+	background-image: url('../images/righteous.jpg');
 	background-size: cover;
 	background-position: center;
 }
